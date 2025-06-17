@@ -1,6 +1,27 @@
+/*IMPORTAR FUENTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 body{
     background-color: black;
     color: white;
     margin: 0;
     padding: 0;
+}
+
+#heading{
+    text-align: center;
+}
+#heading h1{
+    font-family: 'Caveat', cursive;
+    font-size: 75px;
+    margin: 10px 0 5px 0; /* sin margen arriba, 10px abajo */
+   
+}
+
+#heading h2{
+     font-family: 'Caveat', cursive;
+    font-size: 50px;
+    margin: 0; /* elimina todo el margen */
+    
 }
