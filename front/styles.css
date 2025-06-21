@@ -109,12 +109,30 @@ header {
 
 
 /***** start main ******/
-.imagen img {
-  width: 100%; /* o cualquier valor como 300px, 50vw, etc. */
-  height: auto; /* para mantener proporción */
-  max-width: 1000px; /* opcional, para limitar tamaño */
-  display: block;
-  margin: 0 auto; /* centrar imagen */
+#image-viewer {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+#main-image {
+  width: 100%;        /* Ocupa todo el ancho disponible del contenedor */
+  max-height: 1000px;  /* Limita la altura para que no se salga */
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
 }
 /***** end main *******/
 
