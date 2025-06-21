@@ -107,6 +107,17 @@ header {
 /***** end switch modo oscuro  *****/
 
 
+
+/***** start main ******/
+.imagen img {
+  width: 100%; /* o cualquier valor como 300px, 50vw, etc. */
+  height: auto; /* para mantener proporción */
+  max-width: 1000px; /* opcional, para limitar tamaño */
+  display: block;
+  margin: 0 auto; /* centrar imagen */
+}
+/***** end main *******/
+
 /***** start footer ****/
 footer{
     background-color: #343d5b;
